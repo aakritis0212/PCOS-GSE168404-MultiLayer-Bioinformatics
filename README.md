@@ -192,7 +192,7 @@ An interactive Streamlit dashboard is provided for exploring:
 * regulator enrichment
 * regulatory networks
 
-**Live dashboard:** Coming soon
+**Live dashboard:** https://pcos-gse168404-multilayer-bioinformatics-fcdnxnaplhhagpeb9mwe2.streamlit.app/
 
 ---
 
