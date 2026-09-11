@@ -1,0 +1,9 @@
+"Metric","Value"
+"Core genes",1774
+"High-centrality genes",1219
+"TRRUST interactions",9396
+"TRRUST regulators tested",459
+"TRRUST significant regulators FDR < 0.05",3
+"ENCODE results available",0
+"Total regulator results",459
+"Significant regulators FDR < 0.05",3
