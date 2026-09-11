@@ -23,7 +23,7 @@ def col(df, names):
 
 limma=load("PCOS_limma_results.csv")
 gsea=load("PCOS_GSEA_significant_pathways.csv") or load("PCOS_GSEA_GO_BP_results.csv")
-core=load("PCOS_core_genes_3_or_more_pathways.csv")
+core=load("PCOS_core_genes_shared_pathways.csv")
 regs=load("PCOS_FINAL_REGULATOR_MASTER_TABLE.csv")
 sigregs=load("PCOS_FINAL_SIGNIFICANT_REGULATORS.csv")
 edges=load("PCOS_significant_regulator_gene_network_edges.csv")
