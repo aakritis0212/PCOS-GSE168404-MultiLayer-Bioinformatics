@@ -22,7 +22,7 @@ def col(df, names):
     return next((x for x in names if x in df.columns), None)
 
 limma=load("PCOS_limma_results.csv")
-gsea=load("PCOS_GSEA_significant_pathways.csv") or load("PCOS_GSEA_GO_BP_results.csv")
+gsea=load("PCOS_core_genes_3_or_more_pathways.csv") or load("PCOS_GSEA_GO_BP_results.csv")
 core=load("PCOS_core_genes_shared_pathways.csv")
 regs=load("PCOS_FINAL_REGULATOR_MASTER_TABLE.csv")
 sigregs=load("PCOS_FINAL_SIGNIFICANT_REGULATORS.csv")
